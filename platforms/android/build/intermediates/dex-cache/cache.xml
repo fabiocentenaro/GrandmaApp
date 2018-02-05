@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\fabio.centenaro\.android\build-cache\7cf26228ee3456779c7d119ef38805c86c18864b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Centenaro\App\GrandmaApp\platforms\android\app\build\intermediates\pre-dexed\debug\classes_1224e6b9c3bfb4f206d7b176e44533e52ec1faa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fabio.centenaro\.android\build-cache\fa99f0e605b5999e85b7b39025bc101252abbc54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Centenaro\App\GrandmaApp\platforms\android\app\build\intermediates\pre-dexed\debug\classes_0c9383a7457ee22f80c77ccfb4f58fc9f1a0f948.jar" />
+    </item>
+
+</items>

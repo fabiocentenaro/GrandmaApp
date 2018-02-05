@@ -1,0 +1,40 @@
+<ActionBar title="Details" class="action-bar"></ActionBar>
+
+<!-- <StackLayout class="page">    
+    <Label class="h2" [text]="item.name"></Label>
+    
+    <ListView [items]="item.subitems" class="list-group">
+        <ng-template let-item="item">
+            <Label [text]="item.name"
+                class="list-group-item"></Label>
+        </ng-template>
+    </ListView>
+</StackLayout> -->
+
+<ListView [items]="item.subitems" class="list-group">
+        <ng-template let-item="item">
+
+<GridLayout
+      columns="*, auto">
+      
+      <!-- Wrap in containers for bigger tap targets -->
+      <StackLayout
+        col="0"
+        orientation="horizontal"        >
+        <Image  [src]="imageSource(item)"
+        class="check-box"></Image>
+        <Label
+          [text]="item.name"
+          ></Label>
+      </StackLayout>
+      <GridLayout
+        col="1"
+        >
+        <StackLayout>
+          <Image ></Image>
+        </StackLayout>
+      </GridLayout>
+    </GridLayout>
+
+</ng-template>
+</ListView>

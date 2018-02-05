@@ -1,0 +1,36 @@
+<ActionBar title="Details">
+    <ActionItem (tap)="onAdd()" ios.systemIcon="4" ios.position="right"  android.systemIcon="ic_menu_add" android.position="actionBar"></ActionItem>    
+</ActionBar>
+
+<StackLayout orientation="vertical" row="1">        
+    <Label text="Add new item:" visibility="{{ isEditMode ? 'visible' : 'collapsed' }}" ></Label>
+    <TextField hint="Add new item" visibility="{{ isEditMode ? 'visible' : 'collapsed' }}" [(ngModel)]="addedItem" ></TextField>
+    <Button text="Add" visibility="{{ isEditMode ? 'visible' : 'collapsed' }}" (tap)="onAdded()"></Button>
+
+    <ListView [items]="item.subitems" class="list-group" row="2">
+            <ng-template let-item="item">     
+                <GridLayout columns="*, auto">             
+              
+                    <StackLayout  orientation="horizontal" (tap)="toggleClick(item)" >
+                        <Image [src]="imageSource(item)" class="check-box">  </Image>
+                        <Label [text]="item.name"></Label>
+                    </StackLayout>                
+                </GridLayout>
+            </ng-template>
+        </ListView>
+
+</StackLayout>
+
+
+
+ <!-- <StackLayout class="page">   
+    <Label class="h2" [text]="item.name"></Label>
+    
+    <ListView [items]="item.subitems" class="list-group">
+        <ng-template let-item="item">
+            <Label [text]="item.name"
+                class="list-group-item"></Label>
+        </ng-template>
+    </ListView>
+</StackLayout>  -->
+

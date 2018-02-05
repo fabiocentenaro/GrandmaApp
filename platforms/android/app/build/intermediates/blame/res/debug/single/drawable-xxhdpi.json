@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\background.png",
+        "source": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\background.png"
+    },
+    {
+        "merged": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\selected.png",
+        "source": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\selected.png"
+    },
+    {
+        "merged": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon.png",
+        "source": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logo.png",
+        "source": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_nonselected.png",
+        "source": "C:\\Centenaro\\App\\GrandmaApp\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_nonselected.png"
+    }
+]
